@@ -1,0 +1,32 @@
+//==========Global Section style start here==========//
+.global{
+    margin: 112px 0;
+    &-header{
+        &-title{
+            max-width: 380px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            h1{
+                @include project-title;
+                text-align: center;
+            }
+        }
+        &-discription{
+            max-width: 530px;
+            margin: 0 auto;
+            margin-bottom: 160px;
+            p{
+                @include project-dis;
+                text-align: center;
+            }
+        }
+    }
+    &-map{
+        display: block;
+        
+        img{
+            width: 100%;
+        }
+    }
+}
+//==========Global Section style end here==========//

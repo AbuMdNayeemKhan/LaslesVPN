@@ -1,0 +1,54 @@
+// ========== Hero section start ========== //
+.hero{
+    padding: 112px 0;
+    &-content{
+        &-title{
+            h1{
+                font-weight: 500;
+                font-size: 3.125rem;
+                line-height: 70px;
+                color: #0B132A;
+                max-width: 550px;
+                span{
+                    font-weight: 700;
+                }
+            }
+        }
+        &-discription{
+            margin-bottom: 30px;
+            p{
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 30px;
+                color: #4F5665;
+                max-width: 550px;
+            span{
+                font-weight: 500;
+            }
+            }
+        }
+        &-button{
+            margin-top: 60px;
+            a{
+                background-color: #F53838;
+                border-radius: 10px;
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: 700;
+                line-height: 25px;
+                padding: 20px 80px;
+                color: #ffffff;
+                -webkit-box-shadow: 0px 30px 17px 0px rgba(245,56,56,0.12); 
+                box-shadow: 0px 30px 17px 0px rgba(245,56,56,0.12);
+                border: 3px solid #F53838;
+                transition: all 300ms ease-in-out;
+                &:hover{
+                    background-color: #ffffff;
+                    border: 3px solid #F53838;
+                    color: #0B132A;
+                }
+            }
+        }
+    }
+}
+// ========== Hero section end ========== //

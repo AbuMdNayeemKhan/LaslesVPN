@@ -1,0 +1,14 @@
+//==========Brand Section style start here==========// 
+.brand{
+    margin: 112px 0;
+    &-wrapper{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        &-item{
+            img{}
+        }
+    }
+}
+//==========Brand Section style end here==========//

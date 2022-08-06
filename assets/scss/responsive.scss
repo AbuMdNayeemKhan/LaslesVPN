@@ -1,0 +1,1425 @@
+// XXX-Large devices (large desktops, 2560px)
+// @media (max-width: 2560px) {  }
+
+// XX-Large devices (large desktops, 1920px)
+// @media (max-width: 1920px) {  }
+
+// X-Large devices (large desktops, 1600px)
+// @media (max-width: 1600px) {  }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { 
+
+    //==========Nav section responsive start===========//
+    .navbar{
+        &-nav{
+            &-logo{}
+            &-menu{
+
+                
+                &.active{
+
+                }
+                    li{
+                        
+                        a{
+
+                        }
+                    }
+            }
+            &-inOut{
+
+            }
+        }
+    }
+//==========Nav Sections responsive end==========//
+
+//==========Hero Sections responsive start==========// 
+.hero{
+
+    .row{
+
+    }
+    &-content{
+        &-title{
+            h1{
+
+                span{
+
+                }
+            }
+        }
+        &-discription{
+
+            p{
+
+            span{
+
+            }
+            }
+        }
+        &-button{
+
+            a{
+
+            }
+        }
+    }
+}
+//==========Hero Sections responsive end==========// 
+
+//==========Counter Sections responsive start here==========// 
+.counter{
+    &-wrapper{
+
+        &-item{
+
+            &:nth-child(2){
+
+            }
+            &-icon{
+                img{
+
+                }
+            }
+            &-content{
+                h4{
+
+                }
+                p{
+
+                }
+            }
+        }
+    }
+}
+//==========Counter Sections responsive end here==========// 
+
+//==========Features Sections responsive start here==========// 
+.features{
+
+    &-cover{
+        img{}
+    }
+    &-content{
+
+        &-title{
+            h1{
+
+            }
+        }
+        &-discription{
+            p{
+
+            }
+        }
+        &-list{
+            ul{
+
+                li{
+
+                    span{
+
+                    }
+                    a{
+
+                    }
+                }
+            }
+        }
+    }
+}
+//==========Features Sections responsive end here==========//
+
+//==========Plan Section responsive start here==========//
+.plan{
+
+    &-header{
+        &-title{
+
+            h1{
+
+            }
+        }
+        &-discription{
+
+        }
+    }
+    &-item{
+
+        &-img{
+
+            img{}
+        }
+        &-content{
+            &-title{
+
+                h4{
+
+                }
+            }
+            &-list{
+                ul{
+
+                    li{
+
+                        span{
+
+                        }
+                    }
+                }
+            }
+        }
+        &-footer{
+            &-text{
+                h3{
+
+                    span{
+
+                    }
+                }
+            }
+            &-button{
+                a{
+
+                }
+            }
+        }
+        
+        &:hover{
+
+            a{
+
+            }
+        }
+    }
+}
+//==========Plan Section responsive end here==========//
+
+//==========Global Section responsive start here==========// 
+.global{
+
+    &-header{
+        &-title{
+
+            h1{
+
+            }
+        }
+        &-discription{
+
+            p{
+
+            }
+        }
+    }
+    &-map{
+
+        img{
+
+        }
+    }
+}
+//==========Global Section responsive end here==========//
+
+//==========Brand section responsive start here==========// 
+.brand{
+
+    &-wrapper{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        gap: 20px;
+        &-item{
+            img{}
+        }
+    }
+}
+//==========Brand section responsive end here==========// 
+
+//==========Review section responsive start here==========// 
+.review{
+
+    &-header{
+        &-title{
+
+            h1{
+
+            }
+        }
+        &-discription{
+
+            p{
+
+            }
+        }
+    }
+    &-body{
+        &-item{
+            min-height: 290px;
+            &-header{
+
+                &-person{
+                    &-photo{
+
+                        img{
+
+                        }
+                    }
+                    &-info{
+
+                        h4{
+
+                        }
+                        p{
+
+                        }
+                    }
+                }
+                &-star{
+
+                    span{
+
+                    }
+                    img{
+
+                    }
+                }
+            }
+            &-body{
+                p{
+
+                }
+            }
+            &:hover{
+
+            }
+        }
+    }
+}
+//==========Review section responsive end here==========//
+
+//==========Subscribe sections responsive start==========//
+.subscribe{
+    &-wrapper{
+
+        &-content{
+
+            h1{
+            }
+            p{
+            }
+        }
+        &-button{
+
+            a{
+
+            }
+        }
+    }
+}
+//==========Subscribe sections responsive end==========//
+
+//==========Footer sections responsive start here==========//
+.footer{
+    padding: 270px 0 50px 0;
+    &-logo-section{
+        &-icon{
+
+            img{
+
+            }
+        }
+        &-discription{
+            p{
+
+                span{
+
+                }
+            }
+        }
+        &-social{
+            ul{
+
+                li{
+
+                    a{
+
+                    }
+                }
+            }
+        }
+        &-copyright{
+            p{
+
+                span{
+
+                }
+            }
+        }
+    }
+    &-product-nav{
+        ul{
+            li{
+
+                &:first-child{
+
+                    a{
+
+                    }
+                }
+                a{
+
+                }
+            }
+        }
+    }
+    &-engage-nav{
+        ul{
+            li{
+
+                &:first-child{
+
+                    a{
+
+                    }
+                }
+                a{
+
+                }
+            }
+        }
+    }
+    &-earn-nav{
+        ul{
+            li{
+
+                &:first-child{
+
+                    a{
+
+                    }
+                }
+                a{
+
+                }
+            }
+        }
+    }
+}
+//==========Footer sections responsive end here==========//
+
+}
+
+// Large devices (desktops, less than 1200px)
+// @media (max-width: 1199.98px) { }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+        //==========Nav section responsive start===========//
+        .navbar{
+            &-nav{
+                &-logo{}
+                &-menu{
+                    position: fixed;
+                    left: -100%;
+                    top: 120px;
+                    gap: 0;
+                    flex-direction: column;
+                    background-color: #fff;
+                    color: #202020;
+                    width: 100%;
+                    height: 92vh;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                    padding: 0;
+                    margin: 0;
+                    z-index: 10;
+                    
+                    &.active{
+                        left: 0;
+                    }
+                        li{
+                            
+                            a{
+                                margin: 16px 0;
+                            }
+                        }
+                }
+                &-inOut{
+                position: fixed;
+                left: -100%;
+                top: 850px;
+                color: #202020;
+                width: 380px;
+                z-index: 10;
+                &.active{
+                    left: 310px;
+                }
+                }
+                &-toggler{
+                    margin-right: 40px;
+                    display: block;
+                    &.active .bar:nth-child(1){
+                        transform: translateY(8px) rotate(45deg);
+                    }
+                    &.active .bar:nth-child(2){
+                        opacity: 0;
+                    }
+                    &.active .bar:nth-child(3){
+                        transform: translateY(-8px) rotate(-45deg);
+                    }
+                }
+            }
+        }
+    //==========Nav Sections responsive end==========//
+    
+    //==========Hero Sections responsive start==========// 
+    .hero{
+        padding-top: 3px;
+        padding-bottom: 112px;
+
+        &-content{
+            &-title{
+                margin-top: 20px;
+                h1{
+                    line-height: 65px;
+                    margin: 0 auto;
+                    text-align: center;
+                    span{
+    
+                    }
+                }
+            }
+            &-discription{
+    
+                p{
+                    text-align: center;
+                    margin: 0 auto;
+                span{
+    
+                }
+                }
+            }
+            &-button{
+                margin-top: 60px;
+                margin-bottom: 100px;
+                text-align: center;
+                a{
+    
+                }
+            }
+        }
+    }
+    //==========Hero Sections responsive end==========// 
+    
+    //==========Counter Sections responsive start here==========// 
+    .counter{
+        &-wrapper{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            &-item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:nth-child(2){
+                    border-left: none;
+                    border-right: none;
+                    padding: 20px 40px;
+                }
+                &-icon{
+                    img{
+                        height: 75px;
+                        width: 75px;
+                    }
+                }
+                &-content{
+                    h4{
+    
+                    }
+                    p{
+    
+                    }
+                }
+            }
+        }
+    }
+    //==========Counter Sections responsive end here==========// 
+    
+    //==========Features Sections responsive start here==========// 
+    .features{
+        padding: 70px 0;
+        &-cover{
+            img{}
+        }
+        &-content{
+            text-align: center;
+            &-title{
+                h1{
+                    margin-bottom: 15px;
+                }
+            }
+            &-discription{
+                p{
+                    margin-bottom: 15px;
+                }
+            }
+            &-list{
+                ul{
+                    width: 220px;
+                    margin: 0 auto;
+                    li{
+                        margin-bottom: 0;
+                        span{
+                        }
+                        a{
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //==========Features Sections responsive end here==========//
+    
+    //==========Plan Section responsive start here==========//
+    .plan{
+        padding: 70px 0;
+        &-header{
+            &-title{
+    
+                h1{
+                    margin-bottom: 15px;
+                }
+            }
+            &-discription{
+                p{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        &-item{
+            min-height: 880px;
+            margin-bottom: 30px;
+            &-img{
+                margin: 80px 0 40px 0;
+                img{}
+            }
+            &-content{
+                &-title{
+                    margin-bottom: 50px;
+                    h4{
+    
+                    }
+                }
+                &-list{
+                    ul{
+                        margin-bottom: 200px;
+                        li{
+                            
+                            span{
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+            &-footer{
+                &-text{
+                    h3{
+    
+                        span{
+    
+                        }
+                    }
+                }
+                &-button{
+                    a{
+    
+                    }
+                }
+            }
+            
+            &:hover{
+    
+                a{
+    
+                }
+            }
+        }
+    }
+    //==========Plan Section responsive end here==========//
+    
+    //==========Global Section responsive start here==========// 
+    .global{
+        margin: 70px 0;
+        &-header{
+            &-title{
+    
+                h1{
+    
+                }
+            }
+            &-discription{
+                margin-bottom: 40px;
+                p{
+    
+                }
+            }
+        }
+        &-map{
+    
+            img{
+    
+            }
+        }
+    }
+    //==========Global Section responsive end here==========//
+    
+    //==========Brand section responsive start here==========// 
+    .brand{
+        margin: 70px 0;
+        &-wrapper{
+            display: flex;
+            width: 100%;
+            margin: 0 auto;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            &-item{
+                img{}
+            }
+        }
+    }
+    //==========Brand section responsive end here==========// 
+    
+    //==========Review section responsive start here==========// 
+    .review{
+        margin: 70px 0 170px 0;
+        &-header{
+            &-title{
+    
+                h1{
+    
+                }
+            }
+            &-discription{
+                margin-bottom: 50px;
+                p{
+    
+                }
+            }
+        }
+        &-body{
+            &-item{
+                min-height: 290px;
+                &-header{
+                    &-person{
+                        &-photo{
+    
+                            img{
+    
+                            }
+                        }
+                        &-info{
+    
+                            h4{
+    
+                            }
+                            p{
+    
+                            }
+                        }
+                    }
+                    &-star{
+    
+                        span{
+    
+                        }
+                        img{
+    
+                        }
+                    }
+                }
+                &-body{
+                    p{
+    
+                    }
+                }
+                &:hover{
+    
+                }
+            }
+            .review-carousel{
+                position: relative;
+                .owl-nav{
+                    right: 3px;
+                    button{
+                        &:hover{
+    
+                        }
+                        i{
+    
+                            &:hover{
+    
+                            }
+                        }
+                    }
+                }
+                .owl-dots{
+                    left: 3px;
+                    .owl-dot{
+                        &.active{
+                            span{
+    
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //==========Review section responsive end here==========//
+    
+    //==========Subscribe sections responsive start==========//
+    .subscribe{
+        &-wrapper{
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: -105px;
+            text-align: center;
+            min-height: 200px;
+            align-items: center;
+            &-content{
+                width: 50%;
+                margin: 0;
+                padding: 0;
+                h1{
+                }
+                p{
+                }
+            }
+            &-button{
+                width: 50%;
+                margin-top: 40px;
+                a{
+    
+                }
+            }
+        }
+    }
+    //==========Subscribe sections responsive end==========//
+    
+    //==========Footer sections responsive start here==========//
+    .footer{
+        padding: 250px 0 30px 0;
+        &-logo-section{
+            &-icon{
+    
+                img{
+    
+                }
+            }
+            &-discription{
+                p{
+    
+                    span{
+    
+                    }
+                }
+            }
+            &-social{
+                ul{
+    
+                    li{
+    
+                        a{
+    
+                        }
+                    }
+                }
+            }
+            &-copyright{
+                p{
+    
+                    span{
+    
+                    }
+                }
+            }
+        }
+        &-product-nav{
+            ul{
+                li{
+    
+                    &:first-child{
+    
+                        a{
+    
+                        }
+                    }
+                    a{
+    
+                    }
+                }
+            }
+        }
+        &-engage-nav{
+            ul{
+                li{
+    
+                    &:first-child{
+    
+                        a{
+    
+                        }
+                    }
+                    a{
+    
+                    }
+                }
+            }
+        }
+        &-earn-nav{
+            ul{
+                li{
+    
+                    &:first-child{
+    
+                        a{
+    
+                        }
+                    }
+                    a{
+    
+                    }
+                }
+            }
+        }
+    }
+    //==========Footer sections responsive end here==========//
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    //==========Nav section responsive start==========//
+    .navbar{
+        &-nav{
+            &-logo{}
+            &-menu{
+                position: fixed;
+                left: -100%;
+                top: 120px;
+                gap: 0;
+                flex-direction: column;
+                background-color: #fff;
+                color: #202020;
+                width: 380px;
+                height: 82vh;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                padding: 0;
+                margin: 0;
+                z-index: 10;
+                &.active{
+                    left: 0;
+                    width: 380px
+                }
+                    li{
+                        
+                        a{
+                            margin: 16px 0;
+                        }
+                    }
+            }
+            &-inOut{
+                position: fixed;
+                left: -100%;
+                top: 600px;
+                color: #202020;
+                width: 380px;
+                height: 82vh;
+                z-index: 10;
+                &.active{
+                    left: 50px;
+                }
+            }
+            &-toggler{
+                margin-right: 40px;
+                display: block;
+                &.active .bar:nth-child(1){
+                    transform: translateY(8px) rotate(45deg);
+                }
+                &.active .bar:nth-child(2){
+                    opacity: 0;
+                }
+                &.active .bar:nth-child(3){
+                    transform: translateY(-8px) rotate(-45deg);
+                }
+            }
+        }
+    }
+//==========Nav Sections responsive end==========//
+
+//==========Hero Sections responsive start==========// 
+.hero{
+    padding-top: 3px;
+    padding-bottom: 112px;
+    text-align: center;
+    .row{
+        flex-direction: column-reverse;;
+    }
+    &-content{
+        &-title{
+            h1{
+                font-weight: 500;
+                font-size: 2.0625rem;
+                line-height: 50px;
+                span{
+
+                }
+            }
+        }
+        &-discription{
+
+            p{
+
+            span{
+
+            }
+            }
+        }
+        &-button{
+            margin-top: 60px;
+            margin-bottom: 100px;
+            a{
+
+            }
+        }
+    }
+}
+//==========Hero Sections responsive end==========// 
+
+//==========Counter Sections responsive start here==========// 
+.counter{
+    &-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        padding: 10px 20px;
+        border-radius: 10px;
+        &-item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 12px;
+            align-items: center;
+            &:nth-child(2){
+                border-left: none;
+                border-right: none;
+                padding: none;
+            }
+            &-icon{
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            &-content{
+                h4{
+                    text-align: center;
+                }
+                p{
+                    
+                }
+            }
+        }
+    }
+}
+//==========Counter Sections responsive end here==========// 
+
+//==========Features Sections responsive start here==========// 
+.features{
+    padding: 70px 0;
+    &-cover{
+        img{}
+    }
+    &-content{
+        text-align: center;
+        &-title{
+            h1{
+            }
+        }
+        &-discription{
+            p{
+
+            }
+        }
+        &-list{
+            ul{
+                width: 220px;
+                margin: 0 auto;
+                li{
+
+                    span{
+                    }
+                    a{
+                    }
+                }
+            }
+        }
+    }
+}
+//==========Features Sections responsive end here==========//
+
+//==========Plan Section responsive start here==========//
+.plan{
+    padding: 70px 0;
+    &-header{
+        &-title{
+
+            h1{
+
+            }
+        }
+        &-discription{
+
+        }
+    }
+    &-item{
+        min-height: auto;
+        margin-bottom: 30px;
+        &-img{
+            margin: 80px 0 40px 0;
+            img{}
+        }
+        &-content{
+            &-title{
+                margin-bottom: 50px;
+                h4{
+
+                }
+            }
+            &-list{
+                ul{
+                    margin-bottom: 200px;
+                    li{
+
+                        span{
+
+                        }
+                    }
+                }
+            }
+        }
+        &-footer{
+            &-text{
+                h3{
+
+                    span{
+
+                    }
+                }
+            }
+            &-button{
+                a{
+
+                }
+            }
+        }
+        
+        &:hover{
+
+            a{
+
+            }
+        }
+    }
+}
+//==========Plan Section responsive end here==========//
+
+//==========Global Section responsive start here==========// 
+.global{
+    margin: 70px 0;
+    &-header{
+        &-title{
+
+            h1{
+
+            }
+        }
+        &-discription{
+            margin-bottom: 40px;
+            p{
+
+            }
+        }
+    }
+    &-map{
+
+        img{
+
+        }
+    }
+}
+//==========Global Section responsive end here==========//
+
+//==========Brand section responsive start here==========// 
+.brand{
+    margin: 70px 0;
+    &-wrapper{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        &-item{
+            img{}
+        }
+    }
+}
+//==========Brand section responsive end here==========// 
+
+//==========Review section responsive start here==========// 
+.review{
+    margin: 70px 0 170px 0;
+    margin
+    &-header{
+        &-title{
+
+            h1{
+
+            }
+        }
+        &-discription{
+
+            p{
+
+            }
+        }
+    }
+    &-body{
+        &-item{
+
+            &-header{
+
+                &-person{
+                    &-photo{
+
+                        img{
+
+                        }
+                    }
+                    &-info{
+
+                        h4{
+
+                        }
+                        p{
+
+                        }
+                    }
+                }
+                &-star{
+
+                    span{
+
+                    }
+                    img{
+
+                    }
+                }
+            }
+            &-body{
+                p{
+
+                }
+            }
+            &:hover{
+
+            }
+        }
+        .review-carousel{
+            position: relative;
+            .owl-nav{
+                right: 3px;
+                button{
+                    &:hover{
+
+                    }
+                    i{
+
+                        &:hover{
+
+                        }
+                    }
+                }
+            }
+            .owl-dots{
+                left: 3px;
+                .owl-dot{
+                    &.active{
+                        span{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//==========Review section responsive end here==========//
+
+//==========Subscribe sections responsive start==========//
+.subscribe{
+    &-wrapper{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: -165px;
+        text-align: center;
+        &-content{
+            width: 100%;
+            margin: 40px 0;
+            h1{
+            }
+            p{
+            }
+        }
+        &-button{
+            width: 100%;
+            margin-bottom: 50px;
+            a{
+
+            }
+        }
+    }
+}
+//==========Subscribe sections responsive end==========//
+
+//==========Footer sections responsive start here==========//
+.footer{
+    padding: 270px 0 30px 0;
+    &-logo-section{
+        &-icon{
+
+            img{
+
+            }
+        }
+        &-discription{
+            p{
+
+                span{
+
+                }
+            }
+        }
+        &-social{
+            ul{
+
+                li{
+
+                    a{
+
+                    }
+                }
+            }
+        }
+        &-copyright{
+            p{
+
+                span{
+
+                }
+            }
+        }
+    }
+    &-product-nav{
+        ul{
+            li{
+
+                &:first-child{
+
+                    a{
+
+                    }
+                }
+                a{
+
+                }
+            }
+        }
+    }
+    &-engage-nav{
+        ul{
+            li{
+
+                &:first-child{
+
+                    a{
+
+                    }
+                }
+                a{
+
+                }
+            }
+        }
+    }
+    &-earn-nav{
+        ul{
+            li{
+
+                &:first-child{
+
+                    a{
+
+                    }
+                }
+                a{
+
+                }
+            }
+        }
+    }
+}
+//==========Footer sections responsive end here==========//
+
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// @media (max-width: 575.98px) {  }
+
+// X-Small devices (portrait phones, less than 414px)
+// @media (max-width: 414px) {}
+
+// X-Small devices (portrait phones, less than 375px)
+// @media (max-width: 375px) {}
+
+// X-Small devices (portrait phones, less than 320px)
+// @media (max-width: 320px) {}
+
+/*-----------------------------------------------------------
+    Responsive CSS End
+-------------------------------------------------------------*/

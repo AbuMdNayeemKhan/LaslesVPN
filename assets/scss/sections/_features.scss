@@ -1,0 +1,43 @@
+// ========== Features Section style start ========== //
+.features{
+    padding: 112px 0;
+    &-cover{
+        img{}
+    }
+    &-content{
+        &-title{
+            h1{
+                @include project-title();
+                max-width: 400px;
+                margin-bottom: 35px;
+            }
+        }
+        &-discription{
+            p{
+                @include project-dis();
+                max-width: 400px;
+                margin-bottom: 35px;
+            }
+        }
+        &-list{
+            ul{
+                padding: 0;
+                li{
+                    list-style-type: none;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    span{
+                        margin-right: 10px;
+                    }
+                    a{
+                        @include project-dis-sm();
+                        text-decoration: none;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+// ========== Features Section style end ========== //

@@ -1,0 +1,130 @@
+//==========Footer Section style start here==========//
+.footer{
+    background-color: #F8F8F8;
+    padding: 190px 0;
+    z-index: 2;
+    &-logo-section{
+        &-icon{
+            margin-bottom: 30px;
+            img{
+                height: 36px;
+                width: 148px;
+            }
+        }
+        &-discription{
+            p{
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 30px;
+                color: #4F5665;
+                max-width: 330px;
+                span{
+                    font-weight: 500;
+                }
+            }
+        }
+        &-social{
+            ul{
+                display: flex;
+                margin-bottom: 0;
+                padding: 0;
+                li{
+                    list-style-type: none;
+                    a{
+
+                    }
+                }
+            }
+        }
+        &-copyright{
+            p{
+                color: #AFB5C0;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 30px;
+                span{
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    &-product-nav{
+        ul{
+            li{
+                list-style-type: none;
+                &:first-child{
+                    margin-bottom: 18px;
+                    a{
+                        font-size: 1.125rem;
+                        font-weight: 500;
+                        color: #0B132A;
+                    }
+                }
+                a{
+                    color: #4F5665;
+                    font-size: 1rem;
+                    line-height: 30px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    transition: all 300ms linear;
+                    &:hover{
+                        color: #F53838;
+                    }
+                }
+            }
+        }
+    }
+    &-engage-nav{
+        ul{
+            li{
+                list-style-type: none;
+                &:first-child{
+                    margin-bottom: 18px;
+                    a{
+                        font-size: 1.125rem;
+                        font-weight: 500;
+                        color: #0B132A;
+                    }
+                }
+                a{
+                    color: #4F5665;
+                    font-size: 1rem;
+                    line-height: 30px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    transition: all 300ms linear;
+                    &:hover{
+                        color: #F53838;
+                    }
+                }
+            }
+        }
+    }
+    &-earn-nav{
+        ul{
+            li{
+                list-style-type: none;
+                &:first-child{
+                    margin-bottom: 18px;
+                    a{
+                        font-size: 1.125rem;
+                        font-weight: 500;
+                        color: #0B132A;
+                    }
+                }
+                a{
+                    color: #4F5665;
+                    font-size: 1rem;
+                    line-height: 30px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    transition: all 300ms linear;
+                    &:hover{
+                        color: #F53838;
+                    }
+                }
+            }
+        }
+    }
+}
+//==========Footer Section style end here==========//

@@ -1,0 +1,35 @@
+@mixin project-title {
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 2.1875rem;
+    line-height: 50px;
+    font-style: normal;
+    @media (max-width: 991.98px) {
+        font-size: 1.5625rem;
+        line-height: 30px;
+    }
+} 
+
+@mixin project-dis {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    font-style: normal;
+    @media (max-width: 991.98px) {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+@mixin project-dis-sm {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    font-style: normal; 
+}
+
+
+
+
